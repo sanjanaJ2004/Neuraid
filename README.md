@@ -10,7 +10,7 @@ An end-to-end Machine Learning and Deep Learning pipeline designed for non-invas
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Parkinson's disease presents characteristic motor symptoms, most notably resting tremors exhibiting rhythmic oscillations between **4–6 Hz**. This project develops an automated diagnostics and severity assessment framework using inertial sensor data:
 
@@ -22,7 +22,7 @@ Parkinson's disease presents characteristic motor symptoms, most notably resting
 
 ---
 
-## 🏗️ Architecture Pipeline
+## Architecture Pipeline
 
 ```
   +--------------------------------------------------------+
@@ -68,7 +68,7 @@ Parkinson's disease presents characteristic motor symptoms, most notably resting
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 ├── batch_20.py            # Complete end-to-end training, analysis & SHAP evaluation
@@ -82,7 +82,7 @@ Parkinson's disease presents characteristic motor symptoms, most notably resting
 
 ---
 
-## 📊 Datasets
+## Datasets
 
 The repository includes real tri-axial sensor recordings sampled at 50 Hz:
 - **`Sanju.csv`**: Baseline physiological movement data from a healthy subject.
@@ -91,7 +91,7 @@ The repository includes real tri-axial sensor recordings sampled at 50 Hz:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the Repository
 ```bash
@@ -122,7 +122,7 @@ python batch_20.py
 
 ---
 
-## 🔬 Key Methodologies & Techniques
+## Key Methodologies & Techniques
 
 ### 1. Spectral Analysis (FFT)
 - Converts time-series sensor data to the frequency domain via Real FFT (`np.fft.rfft`).
@@ -150,7 +150,7 @@ Computes statistical and kinematic indicators across 10 temporal windows:
 
 ---
 
-## 📝 Resume Bullet Points (Ready to Use)
+## Resume Bullet Points
 
 Feel free to adapt these bullet points for your resume:
 
@@ -161,5 +161,5 @@ Feel free to adapt these bullet points for your resume:
 
 ---
 
-## 📜 License
+## License
 This project is open-source under the [MIT License](LICENSE).
