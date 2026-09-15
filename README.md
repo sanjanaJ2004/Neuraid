@@ -71,7 +71,7 @@ Parkinson's disease presents characteristic motor symptoms, most notably resting
 ## Repository Structure
 
 ```
-├── batch_20.py            # Complete end-to-end training, analysis & SHAP evaluation
+├── Neuraid.py             # Complete end-to-end training, analysis & SHAP evaluation
 ├── Sanju.csv              # Healthy control accelerometer readings (X, Y, Z)
 ├── PARKINSOND.csv         # Parkinson's patient baseline accelerometer data
 ├── PARKINSON_IN.csv       # Test subject input accelerometer sample
@@ -117,7 +117,7 @@ pip install -r requirements.txt
 
 ### 4. Run the Pipeline
 ```bash
-python batch_20.py
+python Neuraid.py
 ```
 
 ---
