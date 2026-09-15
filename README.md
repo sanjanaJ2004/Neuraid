@@ -148,18 +148,5 @@ Computes statistical and kinematic indicators across 10 temporal windows:
   - **Feature Importance Bars**: Ranked ranking of predictive drivers (e.g., Jerk vs. Z-axis RMS).
   - **Force Plots**: Local instance-level attribution for individual diagnostic decisions.
 
----
-
-## Resume Bullet Points
-
-Feel free to adapt these bullet points for your resume:
-
-- *Engineered an end-to-end deep learning diagnostic pipeline for Parkinson's disease tremor detection from tri-axial accelerometer time-series data using TensorFlow and Scikit-Learn.*
-- *Implemented Fast Fourier Transform (FFT) spectral decomposition to isolate the 4–6 Hz resting tremor band, coupled with kinematic feature extraction (Jerk, RMS, standard deviation).*
-- *Developed a hybrid 1D-CNN + Bi-LSTM neural network with temporal attention and prototype metric learning (cosine similarity) to classify pathological movement patterns.*
-- *Integrated Explainable AI (xAI) using SHAP (KernelExplainer) to provide transparent, clinically interpretable feature attributions for model predictions.*
-
----
-
 ## License
 This project is open-source under the [MIT License](LICENSE).
